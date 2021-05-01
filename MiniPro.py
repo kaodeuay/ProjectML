@@ -90,7 +90,7 @@ def get_input():
 # -- Call function to display widgets and get data from user
 df = get_input()
 
-st.header('Application of Status Prediction:')
+st.header('Multiple Linear Regression:')
 
 # -- Display new data from user inputs:
 st.subheader('NEW DATA:')
