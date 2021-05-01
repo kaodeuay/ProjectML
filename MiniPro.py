@@ -3,6 +3,8 @@ import pandas as pd
 import pickle
 import numpy as np
 import sklearn
+from PIL import Image
+
 image = Image.open('fire.png')
 st.image(image, width=50)
 st.write(""" 
