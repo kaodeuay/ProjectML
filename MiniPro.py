@@ -12,7 +12,7 @@ st.write("""
 ## Forest Fires
 
 """)
-st.image(image, width=50)
+st.sidebar.image(image, width=50)
 st.sidebar.header('NEW DATA')
 st.sidebar.subheader('Please enter your data:')
 
