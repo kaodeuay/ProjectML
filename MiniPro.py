@@ -3,13 +3,15 @@ import pandas as pd
 import pickle
 import numpy as np
 import sklearn
+image = Image.open('fire.png')
+st.image(image, width=50)
 st.write(""" 
 
 ## Forest Fires
 
 """)
-
-st.sidebar.header('User Input')
+st.image(image, width=50)
+st.sidebar.header('NEW DATA')
 st.sidebar.subheader('Please enter your data:')
 
 # -- Define function to display widgets and store data
@@ -89,7 +91,7 @@ df = get_input()
 st.header('Application of Status Prediction:')
 
 # -- Display new data from user inputs:
-st.subheader('User Input:')
+st.subheader('NEW DATA:')
 st.write(df)
 
 # -- Data Pre-processing for New Data:
